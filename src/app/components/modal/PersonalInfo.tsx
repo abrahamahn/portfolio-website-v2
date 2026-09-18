@@ -5,17 +5,14 @@ interface PersonalInfoItem {
   metaInfo: string;
 }
 
+// Keep public profile details professional and location information broad.
 const personalInfoContent: PersonalInfoItem[] = [
-  { meta: "first name", metaInfo: "Abraham " },
-  { meta: "last name", metaInfo: "Ahn" },
-  { meta: "Age", metaInfo: "30" },
-  { meta: "Nationality", metaInfo: "United States" },
+  { meta: "Name", metaInfo: "Abe Ahn" },
+  { meta: "Role", metaInfo: "Software Engineer" },
+  { meta: "Based in", metaInfo: "United States / South Korea" },
   { meta: "Remote", metaInfo: "Available" },
   { meta: "In-Office", metaInfo: "Available" },
-  { meta: "Address", metaInfo: "San Francisco" },
-  { meta: "phone", metaInfo: "+1 (650)254-6342" },
-  { meta: "Email", metaInfo: "satmorningrain@gmail.com" },
-  { meta: "langages", metaInfo: "English, Korean, Spanish" },
+  { meta: "Languages", metaInfo: "English, Korean, Spanish" },
 ];
 
 const PersonalInfo: React.FC = () => {
